@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-kaifang-dev   
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-kaifang-test
+    
+#保存为utf-8
